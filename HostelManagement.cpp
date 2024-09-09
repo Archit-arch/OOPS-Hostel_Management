@@ -107,7 +107,7 @@ int main() {
         cout << "\t Welcome to the Hostel Accommodation System" << endl;
         cout << "\t******************************************" << endl;
         cout << "\t1. Reserve a Bed" << endl;
-        cout << "\t2. Exit" << endl;
+        cout << "\t2. Exit Option" << endl;
         cout << "\tEnter a choice: ";
         cin >> val;
 
@@ -119,7 +119,7 @@ int main() {
             getline(cin, name);
             s.setName(name);
 
-            cout << "\tEnter Roll No: ";
+            cout << "\tEnter Roll No Please: ";
             getline(cin, rollno);
             s.setRegNo(rollno);
 
